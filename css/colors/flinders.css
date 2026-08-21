@@ -1,0 +1,127 @@
+/* ============================================================
+   Flinders-inspired theme
+   Primary  : Midnight Navy  #0B2E5E   (Flinders dark blue family)
+   Accent   : Flinders Gold  #FFCD00   (used only on dark areas)
+   Built from the original template theme structure.
+   ============================================================ */
+
+/* ---------- Gold accents (dark sidebar / profile area only) ---------- */
+.aside1 a {
+    color: #FFCD00;
+}
+.aside1 a:hover {
+    background: #FFCD00;
+    color: #0B2E5E;
+}
+.aside1 .aside-content .part1 {
+    color: #FFCD00;
+}
+.hs-menu nav .active-sec .fa {
+    background: #FFCD00;
+    color: #0B2E5E;
+}
+.hs-headline .download {
+    background: #FFCD00;
+    color: #0B2E5E;
+}
+#my-link {
+    background: #FFCD00;
+    color: #0B2E5E;
+}
+@-webkit-keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 .1em #FFCD00;
+    }
+    100% {
+        box-shadow: 0 0 0 3em transparent;
+    }
+}
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 .1em #FFCD00;
+    }
+    100% {
+        box-shadow: 0 0 0 3em transparent;
+    }
+}
+
+/* ---------- Navy primary (light content areas + badges) ---------- */
+.hs-content .active-sec {
+    background: #0B2E5E !important;
+}
+.hs-inner h2:after {
+    background: #0B2E5E;
+}
+a.hs-totop-link {
+    background: #0B2E5E;
+}
+.hs-inner .before-title {
+    color: #0B2E5E;
+}
+#header .news-scroll span {
+    color: #0B2E5E;
+}
+.tabs-left > .nav-tabs > li > a {
+    background: #0B2E5E;
+}
+.tabs-left > .nav-tabs > li > a:hover, .tabs-left > .nav-tabs > li > a:focus {
+    background: #0B2E5E;
+}
+.about-section .tab-pane h4 {
+    color: #0B2E5E;
+}
+.resume-section .resume > li > .resume-tag {
+    background: #0B2E5E;
+}
+.resume-section .resume h4 {
+    color: #0B2E5E;
+}
+.bar-main-container {
+    background: #0B2E5E;
+}
+.publication-section .date {
+    background: #0B2E5E;
+}
+.publication-section .media h4 {
+    color: #0B2E5E;
+}
+.publication-detail .ext_link {
+    background: #0B2E5E;
+}
+.publication-detail .ext_link:hover {
+    color: #0B2E5E;
+}
+.team-card-container h3 {
+    color: #0B2E5E;
+}
+.team-card-container .back .social-icons a {
+    background: #0B2E5E;
+}
+.research-section .slide-header h4 {
+    color: #0B2E5E;
+}
+.research-section .slider-details {
+    background: #0B2E5E;
+}
+.teaching-section .teaching > li > .teaching-tag {
+    background: #0B2E5E;
+}
+.teaching-section .teaching h4 {
+    color: #0B2E5E;
+}
+.work_desc .ext_link {
+    background: #0B2E5E;
+}
+.work_desc .ext_link:hover {
+    color: #0B2E5E;
+}
+.contact-section #contact_form .submit_btn:hover {
+    color: #0B2E5E;
+    border: 1px solid #0B2E5E;
+}
+.contact-section .contact_info h3 {
+    color: #0B2E5E;
+}
+.pace .pace-progress {
+    background: #0B2E5E;
+}
